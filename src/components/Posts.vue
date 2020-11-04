@@ -1,5 +1,5 @@
 <template>
-
+<!-- image display -->
 <div class="container containerPost" :style="{color: 'white'}">
   <h1 class="text-center">Content</h1>
   <br><br><br>
@@ -23,7 +23,9 @@
       </div>
     </div>
   </div>
-  <!-- <table class="table table-striped table-dark mt-4">
+  <br><br><br><br>
+  <!-- API Table -->
+  <table class="table table-striped table-dark mt-4">
     <thead>
       <tr>
         <th scope="col">User Id</th>
@@ -40,13 +42,14 @@
         <td>{{post.body}}</td>
       </tr>
     </tbody>
-  </table> -->
+  </table>
   <br><br><br><br><br><br>
 </div>
 
 </template>
 
 <script>
+// API script
 import axios from 'axios'
 
 export default {

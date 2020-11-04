@@ -46,19 +46,64 @@
           <img src="../assets/logo.png" width="50%" alt="vue"> 
           <!-- <img src="http://www.jsweet.org/wp-content/uploads/2016/04/react-logo.png" width="50%" alt=""> -->
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
           <br> <br> <br> <br>
           <h3>Author: Stephen Brooks</h3>
+          <p> <a href="https://github.com/StephenBrooks220413/VueDeveloper.git" target="_blank">REPOSITORY LINK FOR THIS APP</a> </p>
           <p>
             <strong>Education</strong>: A.S. Computer Science from SNHU <br>
                        Udemy Courses and TrueCoders Bootcamp <br>
             <strong>Experience</strong>: Freelance Front End Developer <br>
-            <strong>Website</strong>: <a href="https://www.clear-web-designs.com" target="_blank">https://www.clear-web-designs.com</a>
+            <strong>Website</strong>: <a href="https://www.developing4life.com" target="_blank">https://www.developing4life.com</a>
           </p>
         </div>
       </div>
     </div>
-    <br><br><br><br>
+    <br><br><br><br><br><br>
+    <article class="container" itemid="article-section">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <h1>Content Title</h1>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.  
+          suscipit ab ad, ea est, maxime enim inventore dicta 
+          aliquid quisquam laboriosam dolorum atque laudantium 
+          saepe autem eveniet temporibus architecto? Nulla quasi.
+        </div>
+        <div class="col-md-6">
+          <section class="row">
+            <div class="col-md-6">
+              <h1 class="text-center">Users</h1>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h1 class="text-center">Articles</h1>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+    <br><br><br><br><br><br>
+    <div class="card bg-dark text-white">
+      <img src="https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" width="100%" height="400px" class="card-img" alt="design">
+      <div class="card-img-overlay">
+        <br><br><br><br>
+        <h1 class="card-title">Work Notes</h1>
+        <br>
+        <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+        <br>
+        <h5 class="card-text">Last updated 3 mins ago</h5>
+      </div>
+    </div>
+    <br><br><br><br><br><br>
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4">
