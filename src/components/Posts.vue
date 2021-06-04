@@ -60,7 +60,7 @@ export default {
         }
     },
     created(){
-        axios.get('https://jsonplaceholder.typicode.com/posts').then(posts =>{
+        axios.get('https://jsonplaceholder.typicode.com/posts/').then(posts =>{
             this.posts = posts.data
         });
     }
